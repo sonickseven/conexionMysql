@@ -2,7 +2,7 @@ var io=require('socket.io'), mysql=require('mysql');
 var connection = mysql.createConnection({
   host     : 'localhost',
   user     : 'root',
-  password : 'dianas1120',
+  password : '',
   database	:'prueba'
 });
 connection.connect();
